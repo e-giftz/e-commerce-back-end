@@ -28,18 +28,13 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    include: {
-      model: Category,
-      attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
+    include: [{
+      model: Product,
+      attributes: ['product_name', 'price', 'stock', 'category_id']
     }
+    ]
   })
-  .then(categoryData => {
-    if(!categoryData) {
-      res.status(404).json({message: 'No categories was found'});
-      return;
-    }
-    res.json(categoryData);
-  })
+  .then(categoryData => res.json(categoryData))
   .catch(err => {
     console.log(err);
     res.status(500).json(err)
