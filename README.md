@@ -1,4 +1,4 @@
-# e-commerce-back-end
+# E-commerce-back-end
 Build  the back end for an e-commerce site by configuring a working Express.js API to use Sequelize to interact with  a MySQL database
 ## Description
 This is an application built with the focus on the back end for an e-commerce site which comes with a starter code. It involves configuring a working Express.js API to use sequelize to interact with  a MySQL database. 
@@ -31,4 +31,5 @@ The walkthrough video below will show a walthrough via Postman on how to view al
 * URL of GitHub repository containing the code: https://github.com/e-giftz/e-commerce-back-end
 
 ## Video  Demonstrating  the App's  Functionality
-![Emloyee Tracker demo](/assets/Employee_tracker.gif)
+![E-Commerce bank-end demo](/Develop/assets/ecommerce_walkthrough1.gif)
+![E-Commerce bank-end demo contd.](/Develop/assets/ecommerce_walkthrough2.gif)
